@@ -1,0 +1,265 @@
+img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+div.first{
+    margin-top: 0;
+    padding-top: 2.5px;
+    overflow: auto;
+    width: 100%;
+    background-color:grey;
+}
+.log,.html{
+    width: 100%;
+}
+.dropbtn{
+    float: right;
+    width: 100%;
+}
+.first:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media only screen and (max-width: 800px){
+    .dropbtn{
+        width: 100%;
+        margin-left: 0;
+    }
+    .log,.html{
+        width: 50%;
+    }
+    .first{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 325px){
+    .dropdown{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+#ha{
+ color: white;
+    margin: auto;
+    width: 50%;
+    padding-top: 9px;
+}
+#cr7{
+    margin-left: 35%;
+    width: 35%;
+    color: grey;
+
+}
+#logo{
+    width: 150px;
+    margin-left: 10px;
+}
+div.ronaldo img{
+    border: 1px solid;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    display: inline;
+    margin: 15px;
+    border-color: white;
+    border-radius: 3px;
+
+}
+img{
+    border-radius: 4px;
+}
+.second{
+    background-image: url(cr7.jpg);
+    overflow: auto;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+p.des{
+    font-size: 15px;
+    margin-left: 0;
+    overflow: auto;
+    margin-top: -9px;
+    text-align: justify;
+}
+#e, #rg{
+    margin-left: 35%;
+}
+p.des::first-letter{
+    font-size: large;
+}
+p.first::first-line{
+    text-align: right;
+}
+
+.dropbtn {
+    background-color:white;
+    color: black;
+    margin-top: 8px;
+
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 2px;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-top: -4px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: lightgrey;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: darkgrey;
+}
+
+div.third{
+    display: inline;
+}
+div.fourth{
+    display: inline;
+    margin: 200px;
+}
+div.fifth{
+    display: inline;
+    margin-right: 40px;
+}
+table, th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    margin:20px 0px;
+
+}
+div.sixth{
+    margin-top: 4px;
+}
+a:link, a:visited{
+    background-color: #f9f9f9;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.b1{
+   background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.b1:hover{
+    background-color: black;
+    color: white;
+}
+.b2{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+.b2:hover{
+    background-color: red;
+    color: white;
+}
+.b3{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+}
+.b3:hover{
+    background-color: blue;
+    color: white;
+}
+form{
+    margin: 10px 350px;
+}
+#fn,#ln,#eml,#cmt,#smit{
+    margin-top: 10px;
+}
+#eml{
+    margin-left: 28px;
+}
+#cmt{
+    margin-left: 4px;
+}
+#fn{
+    margin-left: -1px;
+}
+table{
+    margin-left: 350px;
+}
+input[type=text], input[type=email]{
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+input[type=submit],input[type=button]{
+    background-color: grey;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.des{
+    text-indent: 20px;
+}
+.h{
+    margin-bottom: 5px;
+}
+#contact{
+    margin-left: 35%;
+}
