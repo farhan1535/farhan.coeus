@@ -1,0 +1,36 @@
+@media screen and (max-width:765px){
+    #r1,#r2,#r3,#r4,#r5{
+        margin-left: 60px;
+    }
+    #logo{
+        margin-left: 300px;
+        margin-top: 10px;
+    }
+    #head1{
+        margin-right: 100px;
+
+    }
+    #head2{
+        margin-left: 160px;
+    }
+    #fb{
+        margin-bottom: 10px;
+        margin-right: 100px;
+    }
+
+}
+@media screen and (max-width:665px){
+    #r1,#r2,#r3,#r4,#r5{
+        margin-left: 0px;
+    }
+    #logo{
+        margin-left: 90px;
+    }
+    .dropdown{
+        margin-bottom: 10px;
+        margin-left: 50%;
+    }
+    #head3{
+        margin-right: 100px;
+    }
+}
