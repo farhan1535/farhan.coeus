@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="b1" onclick="myfunc()">Click Me!</button>
+<button id="b2" onclick="clearstuff()">Clear</button>
+<br>
+<button id="cl" onclick="gettotal()" style="display: none">Calculate total</button>
+<div id="container">
+</div>
+<script>
+    var count=0;
+    function myfunc() {
+        count+=1;
+        var container=document.getElementById("container");
+        if(count == 1) {
+           var c=document.getElementById("cl");
+           c.style.display="inline";
+
+           var caltotal = document.createElement("input");
+           caltotal.id = "ct";
+           container.appendChild(caltotal);
+       }
+       var productnameinp=document.createElement("input");
+       productnameinp.type="text";
+       productnameinp.id="pn"+count;
+
+       var paragraph=document.createElement("p");
+       paragraph.id="pnamelab"+count;
+       var node=document.createTextNode("Farhan");
+       paragraph.appendChild(node);
+
+       container.appendChild(paragraph);
+       container.appendChild(productnameinp);
+
+
+       var paragraph1=document.createElement("p");
+       paragraph1.id="pcostlab"+count;
+       node=document.createTextNode("Cost per unit");
+       paragraph1.appendChild(node);
+
+       var costpunit=document.createElement("input");
+       costpunit.type="number";
+       costpunit.id="cpu"+count;
+       container.appendChild(paragraph1);
+       container.appendChild(costpunit);
+
+        var paragraph2=document.createElement("p");
+        paragraph2.id="qty"+count;
+        node=document.createTextNode("Quantity");
+        paragraph2.appendChild(node);
+
+        var Qnty=document.createElement("input");
+        Qnty.type="number";
+        Qnty.id="q"+count;
+        container.appendChild(paragraph2);
+        container.appendChild(Qnty);
+
+    }
+    function calculatesum() {
+        var i=1;
+        var totalval=0;
+        var cst,qty;
+        while(i<=count){
+            cst=document.getElementById("cpu"+i).value;
+            qty=document.getElementById("q"+i).value;
+            totalval=totalval+(cst*qty);
+            i+=1;
+        }
+        return totalval;
+    }
+    function gettotal() {
+        var tmp=document.getElementById("ct");
+        tmp.value=calculatesum();
+    }
+    function clearstuff() {
+            window.location.reload(true);
+    }
+</script>
+</body>
+</html>

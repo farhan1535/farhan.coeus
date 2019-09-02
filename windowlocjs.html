@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Window location object</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <button onclick="myFunc()">Try it</button>
+    <script>
+        window.alert("Hello guys");
+        alert("Hello\nHow are you?");
+        window.confirm("you are madrid fan?");
+        //document.getElementById("demo").innerHTML="page location is: "+ navigator.javaEnabled();
+        function myFunc() {
+            var txt;
+            var person=prompt("please enter your name:","Harry potter");
+            if (person == null || person == ""){
+                txt="User cancelled the prompt.";
+            }else {
+                txt="Hello"+person+"How are you";
+            }
+            document.getElementById("demo").innerHTML=txt;
+        }
+        document.cookie="username=Farhan; expires=Mon, 18 Dec 2011 13:00:00 UTC";
+
+    </script>
+</body>
+</html>

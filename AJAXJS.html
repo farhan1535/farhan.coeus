@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX javascript</title>
+</head>
+<body>
+<p id="demo">AJAX workiing</p>
+<button type="button" onclick="loaddoc()">change content</button>
+<script>
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET","https://www.w3schools.com/js/tryit.asp?filename=tryjs_ajax_asyncfalse",true);
+    xhttp.send();
+    document.getElementById("demo").innerHTML=xhttp.responseText;
+</script>
+</body>
+</html>

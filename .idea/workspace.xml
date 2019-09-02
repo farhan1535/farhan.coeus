@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15a1812b-1c16-4eb9-a5da-936bf87c3a34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/indexwithbs.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexwithbs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/style1.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -64,6 +66,15 @@
       <workItem from="1566450618626" duration="16437000" />
       <workItem from="1566719812438" duration="5708000" />
       <workItem from="1566726553079" duration="2257000" />
+      <workItem from="1566890296486" duration="8911000" />
+      <workItem from="1566977266111" duration="2316000" />
+      <workItem from="1567055569675" duration="20825000" />
+      <workItem from="1567088803138" duration="194000" />
+      <workItem from="1567090495506" duration="832000" />
+      <workItem from="1567096832388" duration="1020000" />
+      <workItem from="1567161200585" duration="5630000" />
+      <workItem from="1567329402390" duration="44000" />
+      <workItem from="1567401857643" duration="1470000" />
     </task>
     <servers />
   </component>
