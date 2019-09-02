@@ -1,0 +1,20 @@
+From d45fd939b7be816de55f8aebff365870e5c43a90 Mon Sep 17 00:00:00 2001
+From: farhan1535 <farhan.shakoor@coeus-solutions.de>
+Date: Mon, 26 Aug 2019 16:26:11 +0500
+Subject: [PATCH] added doc file
+
+---
+ doc | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 doc
+
+diff --git a/doc b/doc
+new file mode 100644
+index 0000000..ce01362
+--- /dev/null
++++ b/doc
+@@ -0,0 +1 @@
++hello
+-- 
+2.17.1
+
